@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section id="container">
+      <h1>SEARCH YOU FAVOURITE MOVIES</h1>
+      <form>
+        <input type="text" id="inp" placeholder="Search Movies" />
+        <button>Search</button>
+      </form>
+      <div class="bgchange">
+        <button type="button" class="grey" onclick="addColor1()"></button>
+        <button type="button" class="pink" onclick="addColor2()"></button>
+        <button type="button" class="blue" onclick="addColor3()"></button>
+        <button type="button" class="green" onclick="addColor4()"></button>
+        <button type="button" class="black" onclick="addColor5()"></button>
+      </div>
+      <div id="list"></div>
+    </section>
+    <script src="script.js"></script>
+    <script src="movieapi.js"></script>
+  </body>
+</html>
