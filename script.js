@@ -1,9 +1,12 @@
 function addColor1() {
     document.body.style.backgroundColor = "aqua";
+    localStorage.setItem(json.stringify({ color: "aqua" }))
 }
 
 function addColor2() {
     document.body.style.backgroundColor = "pink";
+
+    localStorage.setItem({ color: "pink" })
 }
 
 function addColor3() {
